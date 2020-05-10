@@ -1,0 +1,138 @@
+---
+title: "wb_colors"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{wb_colors}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(wbhelpr)
+library(tidyverse)
+```
+
+
+# Using World Bank Custom Colors for Visualization
+
+The World Bank has official color palettes as part of its [Branding and Visual Identity Guidelines](http://pubdocs.worldbank.org/en/546361452012867685/wbg-branding-visual-identity-guideline.pdf) document (pages 17-18).  I used the steps from [this helpful blog post](http://pubdocs.worldbank.org/en/546361452012867685/wbg-branding-visual-identity-guideline.pdf) to create this custom custom World Bank color palette to use in visualizations in R. I've added a light grey, and dark grey, because they are easier to see & differntiate than white in data visualizations that often have a white or light background.
+
+
+## Getting started
+
+### Colors: wb_colors
+
+The basic building block is a vector called `wb_colors` that contains the color hex codes and the associated names from the Branding and Visual Identity Guide.  For many of the colors, the guide only lists color hexes with no names, so I used the names [from this website](http://chir.ag/projects/name-that-color/#6195ED) that matches color names to color hexes.  
+
+```{r}
+wb_colors
+```
+
+#### wb_cols()
+
+The function `wb_cols()` will return the entire World Bank color palette when no argument is specified.
+
+```{r eval=FALSE}
+wb_cols()
+   # solid blue   bright blue         black         white    light grey 
+   #  "#002244"     "#009FDA"     "#000000"     "#FFFFFF"     "#CCCCCC" 
+   #  dark grey      flamingo           sun        wb red sea buckthorn 
+   #  "#9B9B9B"     "#F05023"     "#FDB714"     "#eb1c2d"     "#F78D28" 
+   # bondi blue    green haze  vivid violet persian green   mexican red 
+   #  "#009CA7"     "#00AB51"     "#872B90"     "#00A996"     "#98252B" 
+   # clementine        nugget   mulled wine    blue stone   green stone 
+   #  "#E16A2D"     "#B88C1D"     "#614776"     "#006068"     "#006450" 
+
+wb_cols("solid blue")
+# solid blue 
+#  "#002244" 
+
+wb_cols("solid blue","black")
+# solid blue      black 
+#  "#002244"  "#000000"
+```
+
+This can be used in plots like this:
+
+```{r}
+ggplot(mtcars, aes(hp, mpg)) +
+  geom_point(color = wb_cols("bright blue"), size = 4, alpha = .8)
+```
+
+## Combine Colors Into Palettes
+
+The color palletes in `wb_palettes` are based on palettes in the Branding and Visual Identity document.
+
+```{r}
+wb_palettes
+```
+
+The function `wb_pal()` is used to access the palettes
+
+```{r}
+args(wb_pal)
+```
+
+The first argument, `palette`, lets the user specify any of the color palettes shown above.  It defaults to the `main` palette.
+
+The second argument, `reverse`, allows the user to reverse the order of the colors.  It requires a logical and defualts to `FALSE`.
+
+The third argument, `...`, is used to feed extra arguments on to `colorRampPallete()` (such as an `alpha` value)
+
+
+```{r}
+wb_pal("cool")
+```
+
+The function will also create interpolated scales of any number desired intermediate colors.
+
+```{r}
+wb_pal("cool")(20)
+```
+
+# ggplot Scale Functions
+
+```{r}
+args(scale_color_wb)
+```
+
+```{r}
+# Color by discrete variable using default palette
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
+    geom_point(size = 4) +
+    scale_color_wb("main")
+```
+
+```{r}
+# Color by numeric variable with cool palette
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
+    geom_point(size = 4, alpha = .6) +
+    scale_color_wb(discrete = FALSE, palette = "sequential 1")
+```
+
+```{r}
+# Fill by discrete variable with different palette + remove legend (guide)
+ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
+    geom_bar() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    scale_fill_wb(palette = "main", guide = "none")
+```
+
+
+# How This Can Be Improved?
+
+While it makes sense for the colors to remain the same as they are in the [Branding and Visual Identity Guidelines](http://pubdocs.worldbank.org/en/546361452012867685/wbg-branding-visual-identity-guideline.pdf), the palettes specified in `wb_palettes` could definitely be refined.
+
+Here are two ways I can think of:
+ * It would be great to figure out how to make these colors into the three main types of color palettes useful for data visualization:  Sequential, Diverging, and Qualitative.  Here is [an article](https://medium.com/nightingale/how-to-choose-the-colors-for-your-data-visualizations-50b2557fa335) that explains this, and provides some tools.
+ * It would be great to figure out how to make relatively large palettes using these colors to use on visualizations that have many different data points.
+
+I've given this an initial try with the `blue green`, `qualititative 1`, and `sequential 1`.  but a lot more can be done.
+

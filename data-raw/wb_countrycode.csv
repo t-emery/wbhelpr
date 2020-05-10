@@ -1,0 +1,289 @@
+country,is_wb_country,wb_name,cldr_short_en,iso2c,iso3c,iso3n,imf,continent,country_name_en_regex
+Afghanistan,TRUE,Afghanistan,Afghanistan,AF,AFG,4,512,Asia,afghan
+Åland Islands,FALSE,NA,Åland Islands,AX,ALA,248,NA,Europe,åland
+Albania,TRUE,Albania,Albania,AL,ALB,8,914,Europe,albania
+Algeria,TRUE,Algeria,Algeria,DZ,DZA,12,612,Africa,algeria
+American Samoa,TRUE,American Samoa,American Samoa,AS,ASM,16,859,Oceania,^(?=.*americ).*samoa
+Andorra,TRUE,Andorra,Andorra,AD,AND,20,NA,Europe,andorra
+Angola,TRUE,Angola,Angola,AO,AGO,24,614,Africa,angola
+Anguilla,FALSE,NA,Anguilla,AI,AIA,660,312,Americas,anguill?a
+Antarctica,FALSE,NA,Antarctica,AQ,ATA,10,NA,NA,antarctica
+Antigua & Barbuda,TRUE,Antigua and Barbuda,Antigua & Barbuda,AG,ATG,28,311,Americas,antigua
+Argentina,TRUE,Argentina,Argentina,AR,ARG,32,213,Americas,argentin
+Armenia,TRUE,Armenia,Armenia,AM,ARM,51,911,Asia,armenia
+Aruba,TRUE,Aruba,Aruba,AW,ABW,533,314,Americas,^(?!.*bonaire).*\baruba
+Australia,TRUE,Australia,Australia,AU,AUS,36,193,Oceania,australia
+Austria,TRUE,Austria,Austria,AT,AUT,40,122,Europe,^(?!.*hungary).*austria|\baustri.*\bemp
+Austria-Hungary,FALSE,NA,NA,NA,NA,NA,NA,NA,austria-hungary
+Azerbaijan,TRUE,Azerbaijan,Azerbaijan,AZ,AZE,31,912,Asia,azerbaijan
+Baden,FALSE,NA,NA,NA,NA,NA,NA,NA,baden
+Bahamas,TRUE,"Bahamas, The",Bahamas,BS,BHS,44,313,Americas,bahamas
+Bahrain,TRUE,Bahrain,Bahrain,BH,BHR,48,419,Asia,bahrain
+Bangladesh,TRUE,Bangladesh,Bangladesh,BD,BGD,50,513,Asia,bangladesh|^(?=.*east).*paki?stan
+Barbados,TRUE,Barbados,Barbados,BB,BRB,52,316,Americas,barbados
+Bavaria,FALSE,NA,NA,NA,NA,NA,NA,NA,bavaria
+Belarus,TRUE,Belarus,Belarus,BY,BLR,112,913,Europe,belarus|byelo
+Belgium,TRUE,Belgium,Belgium,BE,BEL,56,124,Europe,^(?!.*luxem).*belgium
+Belize,TRUE,Belize,Belize,BZ,BLZ,84,339,Americas,belize|^(?=.*british).*honduras
+Benin,TRUE,Benin,Benin,BJ,BEN,204,638,Africa,benin|dahome
+Bermuda,TRUE,Bermuda,Bermuda,BM,BMU,60,319,Americas,bermuda
+Bhutan,TRUE,Bhutan,Bhutan,BT,BTN,64,514,Asia,bhutan
+Bolivia,TRUE,Bolivia,Bolivia,BO,BOL,68,218,Americas,bolivia
+Caribbean Netherlands,FALSE,NA,Caribbean Netherlands,BQ,BES,535,NA,Americas,^(?=.*bonaire).*eustatius|^(?=.*carib).*netherlands|\bbes.?islands
+Bosnia & Herzegovina,TRUE,Bosnia and Herzegovina,Bosnia,BA,BIH,70,963,Europe,herzegovina|bosnia
+Botswana,TRUE,Botswana,Botswana,BW,BWA,72,616,Africa,botswana|bechuana
+Bouvet Island,FALSE,NA,Bouvet Island,BV,BVT,74,NA,NA,bouvet
+Brazil,TRUE,Brazil,Brazil,BR,BRA,76,223,Americas,brazil
+British Indian Ocean Territory,FALSE,NA,British Indian Ocean Territory,IO,IOT,86,NA,NA,british.?indian.?ocean
+Brunei,TRUE,Brunei Darussalam,Brunei,BN,BRN,96,516,Asia,brunei
+Brunswick,FALSE,NA,NA,NA,NA,NA,NA,NA,brunswick
+Bulgaria,TRUE,Bulgaria,Bulgaria,BG,BGR,100,918,Europe,bulgaria
+Burkina Faso,TRUE,Burkina Faso,Burkina Faso,BF,BFA,854,748,Africa,burkina|\bfaso|upper.?volta
+Burundi,TRUE,Burundi,Burundi,BI,BDI,108,618,Africa,burundi
+Cape Verde,TRUE,Cabo Verde,Cape Verde,CV,CPV,132,624,Africa,verde
+Cambodia,TRUE,Cambodia,Cambodia,KH,KHM,116,522,Asia,cambodia|kampuchea|khmer
+Cameroon,TRUE,Cameroon,Cameroon,CM,CMR,120,622,Africa,cameroon
+Canada,TRUE,Canada,Canada,CA,CAN,124,156,Americas,canada
+Cayman Islands,TRUE,Cayman Islands,Cayman Islands,KY,CYM,136,377,Americas,cayman
+Central African Republic,TRUE,Central African Republic,Central African Republic,CF,CAF,140,626,Africa,\bcentral.african.republic
+Chad,TRUE,Chad,Chad,TD,TCD,148,628,Africa,\bchad
+Channel Islands,TRUE,Channel Islands,NA,NA,NA,NA,NA,NA,\bchannel.islands
+Chile,TRUE,Chile,Chile,CL,CHL,152,228,Americas,\bchile
+China,TRUE,China,China,CN,CHN,156,924,Asia,^(?!.*\bmac)(?!.*\bhong)(?!.*\btai)(?!.*\brep).*china|^(?=.*peo)(?=.*rep).*china
+Christmas Island,FALSE,NA,Christmas Island,CX,CXR,162,NA,Oceania,christmas
+Cocos (Keeling) Islands,FALSE,NA,Cocos (Keeling) Islands,CC,CCK,166,NA,NA,\bcocos|keeling
+Colombia,TRUE,Colombia,Colombia,CO,COL,170,233,Americas,colombia
+Comoros,TRUE,Comoros,Comoros,KM,COM,174,632,Africa,comoro
+Congo - Brazzaville,TRUE,"Congo, Rep.",Congo - Brazzaville,CG,COG,178,634,Africa,^(?!.*\bdem)(?!.*\bd[\.]?r)(?!.*kinshasa)(?!.*zaire)(?!.*belg)(?!.*l.opoldville)(?!.*free).*\bcongo
+Cook Islands,FALSE,NA,Cook Islands,CK,COK,184,815,Oceania,\bcook
+Costa Rica,TRUE,Costa Rica,Costa Rica,CR,CRI,188,238,Americas,costa.?rica
+Côte d’Ivoire,TRUE,Côte d'Ivoire,Côte d’Ivoire,CI,CIV,384,662,Africa,ivoire|ivory
+Croatia,TRUE,Croatia,Croatia,HR,HRV,191,960,Europe,croatia
+Cuba,TRUE,Cuba,Cuba,CU,CUB,192,928,Americas,\bcuba
+Curaçao,TRUE,Curaçao,Curaçao,CW,CUW,531,354,Americas,^(?!.*bonaire).*\bcura(c|ç)ao
+Cyprus,TRUE,Cyprus,Cyprus,CY,CYP,196,423,Asia,cyprus
+Czechia,TRUE,Czech Republic,Czechia,CZ,CZE,203,935,Europe,^(?=.*rep).*czech|czechia|bohemia
+Czechoslovakia,FALSE,NA,NA,NA,NA,NA,934,NA,czechoslovakia
+North Korea,TRUE,"Korea, Dem. People's Rep.",North Korea,KP,PRK,408,NA,Asia,dprk|d.p.r.k|korea.+(d.p.r|dpr|north|dem.*peo.*rep.*)|(d.p.r|dpr|north|dem.*peo.*rep.*).+korea
+Congo - Kinshasa,TRUE,"Congo, Dem. Rep.",Congo - Kinshasa,CD,COD,180,636,Africa,\bdem.*congo|congo.*\bdem|congo.*\bd[\.]?r|\bd[\.]?r.*congo|belgian.?congo|congo.?free.?state|kinshasa|zaire|l.opoldville|drc|droc|rdc
+Denmark,TRUE,Denmark,Denmark,DK,DNK,208,128,Europe,denmark
+Djibouti,TRUE,Djibouti,Djibouti,DJ,DJI,262,611,Africa,djibouti
+Dominica,TRUE,Dominica,Dominica,DM,DMA,212,321,Americas,dominica(?!n)
+Dominican Republic,TRUE,Dominican Republic,Dominican Republic,DO,DOM,214,243,Americas,dominican.rep
+Ecuador,TRUE,Ecuador,Ecuador,EC,ECU,218,248,Americas,ecuador
+Egypt,TRUE,"Egypt, Arab Rep.",Egypt,EG,EGY,818,469,Africa,egypt
+El Salvador,TRUE,El Salvador,El Salvador,SV,SLV,222,253,Americas,el.?salvador
+Equatorial Guinea,TRUE,Equatorial Guinea,Equatorial Guinea,GQ,GNQ,226,642,Africa,guine.*eq|eq.*guine|^(?=.*span).*guinea
+Eritrea,TRUE,Eritrea,Eritrea,ER,ERI,232,643,Africa,eritrea
+Estonia,TRUE,Estonia,Estonia,EE,EST,233,939,Europe,estonia
+Ethiopia,TRUE,Ethiopia,Ethiopia,ET,ETH,231,644,Africa,ethiopia|abyssinia
+Falkland Islands,FALSE,NA,Falkland Islands,FK,FLK,238,323,Americas,falkland|malvinas
+Faroe Islands,TRUE,Faroe Islands,Faroe Islands,FO,FRO,234,816,Europe,faroe|faeroe
+Fiji,TRUE,Fiji,Fiji,FJ,FJI,242,819,Oceania,fiji
+Finland,TRUE,Finland,Finland,FI,FIN,246,172,Europe,finland
+France,TRUE,France,France,FR,FRA,250,132,Europe,^(?!.*\bdep)(?!.*martinique).*france|french.?republic|\bgaul
+French Guiana,FALSE,NA,French Guiana,GF,GUF,254,333,Americas,^(?=.*french).*guiana
+French Polynesia,TRUE,French Polynesia,French Polynesia,PF,PYF,258,887,Oceania,french.?polynesia|tahiti
+French Southern Territories,FALSE,NA,French Southern Territories,TF,ATF,260,NA,NA,french.?southern
+Gabon,TRUE,Gabon,Gabon,GA,GAB,266,646,Africa,gabon
+Gambia,TRUE,"Gambia, The",Gambia,GM,GMB,270,648,Africa,gambia
+Georgia,TRUE,Georgia,Georgia,GE,GEO,268,915,Asia,^(?!.*south).*georgia
+German Democratic Republic,FALSE,NA,NA,NA,NA,NA,NA,NA,german.?democratic.?rep|democratic.?rep.*germany|east.germany|germany.*east
+Germany,TRUE,Germany,Germany,DE,DEU,276,134,Europe,^(?!.*east).*germany|^(?=.*\bfed.*\brep).*german
+Ghana,TRUE,Ghana,Ghana,GH,GHA,288,652,Africa,ghana|gold.?coast
+Gibraltar,TRUE,Gibraltar,Gibraltar,GI,GIB,292,823,Europe,gibraltar
+Greece,TRUE,Greece,Greece,GR,GRC,300,174,Europe,greece|hellenic|hellas
+Greenland,TRUE,Greenland,Greenland,GL,GRL,304,326,Americas,greenland
+Grenada,TRUE,Grenada,Grenada,GD,GRD,308,328,Americas,grenada
+Guadeloupe,FALSE,NA,Guadeloupe,GP,GLP,312,329,Americas,guadeloupe
+Guam,TRUE,Guam,Guam,GU,GUM,316,829,Oceania,\bguam
+Guatemala,TRUE,Guatemala,Guatemala,GT,GTM,320,258,Americas,guatemala
+Guernsey,FALSE,NA,Guernsey,GG,GGY,831,NA,Europe,guernsey
+Guinea,TRUE,Guinea,Guinea,GN,GIN,324,656,Africa,^(?!.*eq)(?!.*span)(?!.*bissau)(?!.*portu)(?!.*new).*guinea
+Guinea-Bissau,TRUE,Guinea-Bissau,Guinea-Bissau,GW,GNB,624,654,Africa,bissau|^(?=.*portu).*guinea
+Guyana,TRUE,Guyana,Guyana,GY,GUY,328,336,Americas,guyana|british.?guiana
+Haiti,TRUE,Haiti,Haiti,HT,HTI,332,263,Americas,haiti
+Hamburg,FALSE,NA,NA,NA,NA,NA,NA,NA,hamburg
+Hanover,FALSE,NA,NA,NA,NA,NA,NA,NA,hanover
+Heard & McDonald Islands,FALSE,NA,Heard & McDonald Islands,HM,HMD,334,NA,NA,heard.*mcdonald
+Hesse Electoral,FALSE,NA,NA,NA,NA,NA,NA,NA,hesse.*lectoral
+Hesse Grand Ducal,FALSE,NA,NA,NA,NA,NA,NA,NA,hess.*gran.*ducal
+Hesse-Darmstadt,FALSE,NA,NA,NA,NA,NA,NA,NA,hesse.darmstadt
+Hesse-Kassel,FALSE,NA,NA,NA,NA,NA,NA,NA,hesse.kassel
+Vatican City,FALSE,NA,Vatican City,VA,VAT,336,NA,Europe,holy.?see|vatican|papal.?st
+Honduras,TRUE,Honduras,Honduras,HN,HND,340,268,Americas,^(?!.*brit).*honduras
+Hong Kong SAR China,TRUE,"Hong Kong SAR, China",Hong Kong,HK,HKG,344,532,Asia,hong.?kong
+Hungary,TRUE,Hungary,Hungary,HU,HUN,348,944,Europe,^(?!.*austr).*hungary
+Iceland,TRUE,Iceland,Iceland,IS,ISL,352,176,Europe,iceland
+India,TRUE,India,India,IN,IND,356,534,Asia,india(?!.*ocea)
+Indonesia,TRUE,Indonesia,Indonesia,ID,IDN,360,536,Asia,indonesia
+Iran,TRUE,"Iran, Islamic Rep.",Iran,IR,IRN,364,429,Asia,\biran|persia
+Iraq,TRUE,Iraq,Iraq,IQ,IRQ,368,433,Asia,\biraq|mesopotamia
+Ireland,TRUE,Ireland,Ireland,IE,IRL,372,178,Europe,^(?!.*north).*\bireland
+Isle of Man,TRUE,Isle of Man,Isle of Man,IM,IMN,833,NA,Europe,^(?=.*isle).*\bman
+Israel,TRUE,Israel,Israel,IL,ISR,376,436,Asia,israel
+Italy,TRUE,Italy,Italy,IT,ITA,380,136,Europe,italy
+Jamaica,TRUE,Jamaica,Jamaica,JM,JAM,388,343,Americas,jamaica
+Japan,TRUE,Japan,Japan,JP,JPN,392,158,Asia,japan
+Jersey,FALSE,NA,Jersey,JE,JEY,832,NA,Europe,jersey
+Jordan,TRUE,Jordan,Jordan,JO,JOR,400,439,Asia,jordan
+Kazakhstan,TRUE,Kazakhstan,Kazakhstan,KZ,KAZ,398,916,Asia,kazak
+Kenya,TRUE,Kenya,Kenya,KE,KEN,404,664,Africa,kenya|british.?east.?africa|east.?africa.?prot
+Kiribati,TRUE,Kiribati,Kiribati,KI,KIR,296,826,Oceania,kiribati
+Kosovo,TRUE,Kosovo,Kosovo,NA,NA,NA,967,NA,kosovo
+Kuwait,TRUE,Kuwait,Kuwait,KW,KWT,414,443,Asia,kuwait
+Kyrgyzstan,TRUE,Kyrgyz Republic,Kyrgyzstan,KG,KGZ,417,917,Asia,kyrgyz|kirghiz
+Laos,TRUE,Lao PDR,Laos,LA,LAO,418,544,Asia,\blaos?\b
+Latvia,TRUE,Latvia,Latvia,LV,LVA,428,941,Europe,latvia
+Lebanon,TRUE,Lebanon,Lebanon,LB,LBN,422,446,Asia,lebanon
+Lesotho,TRUE,Lesotho,Lesotho,LS,LSO,426,666,Africa,lesotho|basuto
+Liberia,TRUE,Liberia,Liberia,LR,LBR,430,668,Africa,liberia
+Libya,TRUE,Libya,Libya,LY,LBY,434,672,Africa,libya
+Liechtenstein,TRUE,Liechtenstein,Liechtenstein,LI,LIE,438,NA,Europe,liechtenstein
+Lithuania,TRUE,Lithuania,Lithuania,LT,LTU,440,946,Europe,lithuania
+Luxembourg,TRUE,Luxembourg,Luxembourg,LU,LUX,442,137,Europe,^(?!.*belg).*luxem
+Macau SAR China,TRUE,"Macao SAR, China",Macau,MO,MAC,446,546,Asia,maca(o|u)
+Madagascar,TRUE,Madagascar,Madagascar,MG,MDG,450,674,Africa,madagascar|malagasy
+Malawi,TRUE,Malawi,Malawi,MW,MWI,454,676,Africa,malawi|nyasa
+Malaysia,TRUE,Malaysia,Malaysia,MY,MYS,458,548,Asia,malaysia
+Maldives,TRUE,Maldives,Maldives,MV,MDV,462,556,Asia,maldive
+Mali,TRUE,Mali,Mali,ML,MLI,466,678,Africa,\bmali\b
+Malta,TRUE,Malta,Malta,MT,MLT,470,181,Europe,\bmalta
+Marshall Islands,TRUE,Marshall Islands,Marshall Islands,MH,MHL,584,867,Oceania,marshall
+Martinique,FALSE,NA,Martinique,MQ,MTQ,474,349,Americas,martinique
+Mauritania,TRUE,Mauritania,Mauritania,MR,MRT,478,682,Africa,mauritania
+Mauritius,TRUE,Mauritius,Mauritius,MU,MUS,480,684,Africa,mauritius
+Mayotte,FALSE,NA,Mayotte,YT,MYT,175,NA,Africa,\bmayotte
+Mecklenburg Schwerin,FALSE,NA,NA,NA,NA,NA,NA,NA,mecklenbur.*schwerin
+Mexico,TRUE,Mexico,Mexico,MX,MEX,484,273,Americas,\bmexic
+Micronesia (Federated States of),TRUE,"Micronesia, Fed. Sts.",NA,FM,FSM,583,868,Oceania,fed.*micronesia|micronesia.*fed
+Modena,FALSE,NA,NA,NA,NA,NA,NA,NA,modena
+Monaco,TRUE,Monaco,Monaco,MC,MCO,492,NA,Europe,monaco
+Mongolia,TRUE,Mongolia,Mongolia,MN,MNG,496,948,Asia,mongolia
+Montenegro,TRUE,Montenegro,Montenegro,ME,MNE,499,943,Europe,^(?!.*serbia).*montenegro
+Montserrat,FALSE,NA,Montserrat,MS,MSR,500,351,Americas,montserrat
+Morocco,TRUE,Morocco,Morocco,MA,MAR,504,686,Africa,morocco|\bmaroc
+Mozambique,TRUE,Mozambique,Mozambique,MZ,MOZ,508,688,Africa,mozambique
+Myanmar (Burma),TRUE,Myanmar,Myanmar,MM,MMR,104,518,Asia,myanmar|burma
+Namibia,TRUE,Namibia,Namibia,"NA",NAM,516,728,Africa,namibia
+Nassau,FALSE,NA,NA,NA,NA,NA,NA,NA,nassau
+Nauru,TRUE,Nauru,Nauru,NR,NRU,520,836,Oceania,nauru
+Nepal,TRUE,Nepal,Nepal,NP,NPL,524,558,Asia,nepal
+Netherlands,TRUE,Netherlands,Netherlands,NL,NLD,528,138,Europe,^(?!.*\bant)(?!.*\bcarib).*netherlands
+Netherlands Antilles,FALSE,NA,NA,NA,NA,NA,353,Americas,netherlands.antil|dutch.antil
+New Caledonia,TRUE,New Caledonia,New Caledonia,NC,NCL,540,839,Oceania,new.?caledonia
+New Zealand,TRUE,New Zealand,New Zealand,NZ,NZL,554,196,Oceania,new.?zealand
+Nicaragua,TRUE,Nicaragua,Nicaragua,NI,NIC,558,278,Americas,nicaragua
+Niger,TRUE,Niger,Niger,NE,NER,562,692,Africa,\bniger(?!ia)
+Nigeria,TRUE,Nigeria,Nigeria,NG,NGA,566,694,Africa,nigeria
+Niue,FALSE,NA,Niue,NU,NIU,570,NA,Oceania,niue
+Norfolk Island,FALSE,NA,Norfolk Island,NF,NFK,574,NA,Oceania,norfolk
+Northern Mariana Islands,TRUE,Northern Mariana Islands,Northern Mariana Islands,MP,MNP,580,NA,Oceania,mariana
+Norway,TRUE,Norway,Norway,NO,NOR,578,142,Europe,norway
+Oldenburg,FALSE,NA,NA,NA,NA,NA,NA,NA,oldenburg
+Oman,TRUE,Oman,Oman,OM,OMN,512,449,Asia,\boman|trucial
+Orange Free State,FALSE,NA,NA,NA,NA,NA,NA,NA,orange.free.state
+Pakistan,TRUE,Pakistan,Pakistan,PK,PAK,586,564,Asia,^(?!.*east).*paki?stan
+Palau,TRUE,Palau,Palau,PW,PLW,585,565,Oceania,palau
+Palestinian Territories,TRUE,West Bank and Gaza,Palestine,PS,PSE,275,487,Asia,palestin|\bgaza|west.?bank
+Panama,TRUE,Panama,Panama,PA,PAN,591,283,Americas,panama
+Papua New Guinea,TRUE,Papua New Guinea,Papua New Guinea,PG,PNG,598,853,Oceania,papua|new.?guinea
+Paraguay,TRUE,Paraguay,Paraguay,PY,PRY,600,288,Americas,paraguay
+Parma,FALSE,NA,NA,NA,NA,NA,NA,NA,parma
+Peru,TRUE,Peru,Peru,PE,PER,604,293,Americas,peru
+Philippines,TRUE,Philippines,Philippines,PH,PHL,608,566,Asia,philippines
+Piedmont-Sardinia,FALSE,NA,NA,NA,NA,NA,NA,NA,piedmont.sardinia
+Pitcairn Islands,FALSE,NA,Pitcairn Islands,PN,PCN,612,NA,Oceania,pitcairn
+Poland,TRUE,Poland,Poland,PL,POL,616,964,Europe,poland
+Portugal,TRUE,Portugal,Portugal,PT,PRT,620,182,Europe,portugal
+Prussia,FALSE,NA,NA,NA,NA,NA,NA,NA,prussia
+Puerto Rico,TRUE,Puerto Rico,Puerto Rico,PR,PRI,630,NA,Americas,puerto.?rico
+Qatar,TRUE,Qatar,Qatar,QA,QAT,634,453,Asia,qatar
+South Korea,TRUE,"Korea, Rep.",South Korea,KR,KOR,410,542,Asia,^(?!.*d.*p.*r)(?!.*democrat)(?!.*people)(?!.*north).*\bkorea(?!.*d.*p.*r)
+Moldova,TRUE,Moldova,Moldova,MD,MDA,498,921,Europe,moldov|b(a|e)ssarabia
+Réunion,FALSE,NA,Réunion,RE,REU,638,696,Africa,r(e|é)union
+Romania,TRUE,Romania,Romania,RO,ROU,642,968,Europe,r(o|u|ou)mania
+Russia,TRUE,Russian Federation,Russia,RU,RUS,643,922,Europe,\brussia|soviet.?union|u\.?s\.?s\.?r|socialist.?republics
+Rwanda,TRUE,Rwanda,Rwanda,RW,RWA,646,714,Africa,rwanda
+St. Barthélemy,FALSE,NA,St. Barthélemy,BL,BLM,652,NA,Americas,barth(e|é)lemy
+St. Helena,FALSE,NA,St. Helena,SH,SHN,654,856,Africa,helena
+St. Kitts & Nevis,TRUE,St. Kitts and Nevis,St. Kitts & Nevis,KN,KNA,659,361,Americas,kitts|\bnevis
+St. Lucia,TRUE,St. Lucia,St. Lucia,LC,LCA,662,362,Americas,\blucia
+Saint Martin (French part),TRUE,St. Martin (French part),NA,MF,MAF,663,352,Americas,saint.martin.*FR|^(?=.*collectivity).*martin|^(?=.*france).*martin(?!ique)|^(?=.*french).*martin(?!ique)
+St. Pierre & Miquelon,FALSE,NA,St. Pierre & Miquelon,PM,SPM,666,363,Americas,miquelon
+St. Vincent & Grenadines,TRUE,St. Vincent and the Grenadines,St. Vincent & Grenadines,VC,VCT,670,364,Americas,vincent
+Samoa,TRUE,Samoa,Samoa,WS,WSM,882,862,Oceania,^(?!.*amer).*samoa
+San Marino,TRUE,San Marino,San Marino,SM,SMR,674,135,Europe,san.?marino
+São Tomé & Príncipe,TRUE,São Tomé and Principe,São Tomé & Príncipe,ST,STP,678,716,Africa,\bs(a|ã)o.?tom(e|é)
+Sardinia,FALSE,NA,NA,NA,NA,NA,NA,NA,^(?!.*piedmont)(?!.*italy).*\bsardinia
+Saudi Arabia,TRUE,Saudi Arabia,Saudi Arabia,SA,SAU,682,456,Asia,\bsa\w*.?arabia
+Saxe-Weimar-Eisenach,FALSE,NA,NA,NA,NA,NA,NA,NA,saxe.weimar.eisenach
+Saxony,FALSE,NA,NA,NA,NA,NA,NA,NA,saxony
+Senegal,TRUE,Senegal,Senegal,SN,SEN,686,722,Africa,senegal
+Serbia,TRUE,Serbia,Serbia,RS,SRB,688,942,Europe,^(?!.*monte).*serbia
+Serbia and Montenegro,FALSE,NA,NA,NA,NA,NA,NA,NA,serbia.and.montenegro
+Seychelles,TRUE,Seychelles,Seychelles,SC,SYC,690,718,Africa,seychell
+Sierra Leone,TRUE,Sierra Leone,Sierra Leone,SL,SLE,694,724,Africa,sierra
+Singapore,TRUE,Singapore,Singapore,SG,SGP,702,576,Asia,singapore
+Sint Maarten,TRUE,Sint Maarten (Dutch part),Sint Maarten,SX,SXM,534,NA,Americas,^(?!.*martin)(?!.*saba).*maarten
+Slovakia,TRUE,Slovak Republic,Slovakia,SK,SVK,703,936,Europe,^(?!.*cze).*slovak
+Slovenia,TRUE,Slovenia,Slovenia,SI,SVN,705,961,Europe,slovenia
+Solomon Islands,TRUE,Solomon Islands,Solomon Islands,SB,SLB,90,813,Oceania,solomon
+Somalia,TRUE,Somalia,Somalia,SO,SOM,706,726,Africa,somalia
+Somaliland,FALSE,NA,NA,NA,NA,NA,NA,Africa,somaliland
+South Africa,TRUE,South Africa,South Africa,ZA,ZAF,710,199,Africa,south.africa|s\\..?africa
+South Georgia & South Sandwich Islands,FALSE,NA,South Georgia & South Sandwich Islands,GS,SGS,239,NA,NA,south.?georgia|sandwich
+South Sudan,TRUE,South Sudan,South Sudan,SS,SSD,728,733,Africa,\bs\w*.?sudan
+Spain,TRUE,Spain,Spain,ES,ESP,724,184,Europe,spain
+Sri Lanka,TRUE,Sri Lanka,Sri Lanka,LK,LKA,144,524,Asia,sri.?lanka|ceylon
+Sudan,TRUE,Sudan,Sudan,SD,SDN,729,732,Africa,^(?!.*\bs(?!u)).*sudan
+Suriname,TRUE,Suriname,Suriname,SR,SUR,740,366,Americas,surinam|dutch.?guiana
+Svalbard & Jan Mayen,FALSE,NA,Svalbard & Jan Mayen,SJ,SJM,744,NA,Europe,svalbard
+Swaziland,TRUE,Swaziland,Swaziland,SZ,SWZ,748,734,Africa,swaziland|eswatini
+Sweden,TRUE,Sweden,Sweden,SE,SWE,752,144,Europe,sweden
+Switzerland,TRUE,Switzerland,Switzerland,CH,CHE,756,146,Europe,switz|swiss
+Syria,TRUE,Syrian Arab Republic,Syria,SY,SYR,760,463,Asia,syria
+Taiwan,TRUE,"Taiwan, China",Taiwan,TW,TWN,158,528,Asia,taiwan|taipei|formosa|^(?!.*peo)(?=.*rep).*china
+Tajikistan,TRUE,Tajikistan,Tajikistan,TJ,TJK,762,923,Asia,tajik
+Thailand,TRUE,Thailand,Thailand,TH,THA,764,578,Asia,thailand|\bsiam
+Macedonia,TRUE,"Macedonia, FYR",Macedonia,MK,MKD,807,962,Europe,macedonia|fyrom
+Timor-Leste,TRUE,Timor-Leste,Timor-Leste,TL,TLS,626,537,Asia,^(?=.*leste).*timor|^(?=.*east).*timor
+Togo,TRUE,Togo,Togo,TG,TGO,768,742,Africa,togo
+Tokelau,FALSE,NA,Tokelau,TK,TKL,772,NA,Oceania,tokelau
+Tonga,TRUE,Tonga,Tonga,TO,TON,776,866,Oceania,tonga
+Trinidad & Tobago,TRUE,Trinidad and Tobago,Trinidad & Tobago,TT,TTO,780,369,Americas,trinidad|tobago
+Tunisia,TRUE,Tunisia,Tunisia,TN,TUN,788,744,Africa,tunisia
+Turkey,TRUE,Turkey,Turkey,TR,TUR,792,186,Asia,turkey
+Turkmenistan,TRUE,Turkmenistan,Turkmenistan,TM,TKM,795,925,Asia,turkmen
+Turks & Caicos Islands,TRUE,Turks and Caicos Islands,Turks & Caicos Islands,TC,TCA,796,NA,Americas,turks
+Tuscany,FALSE,NA,NA,NA,NA,NA,NA,NA,tuscany
+Tuvalu,TRUE,Tuvalu,Tuvalu,TV,TUV,798,NA,Oceania,tuvalu
+Two Sicilies,FALSE,NA,NA,NA,NA,NA,NA,NA,two.?sicilies
+Uganda,TRUE,Uganda,Uganda,UG,UGA,800,746,Africa,uganda
+Ukraine,TRUE,Ukraine,Ukraine,UA,UKR,804,926,Europe,ukrain
+United Arab Emirates,TRUE,United Arab Emirates,United Arab Emirates,AE,ARE,784,466,Asia,emirates|^u\.?a\.?e\.?$|united.?arab.?em
+United Arab Republic,FALSE,NA,NA,NA,NA,NA,NA,Asia,united.arab.republic
+United Kingdom,TRUE,United Kingdom,UK,GB,GBR,826,112,Europe,united.?kingdom|britain|^u\.?k\.?$
+United Province CA,FALSE,NA,NA,NA,NA,NA,NA,NA,united.province.ca
+Tanzania,TRUE,Tanzania,Tanzania,TZ,TZA,834,738,Africa,tanzania
+United States Minor Outlying Islands (the),FALSE,NA,NA,UM,UMI,581,NA,NA,minor.?outlying.?is
+United States,TRUE,United States,US,US,USA,840,111,Americas,united.?states\b(?!.*islands)|\bu\.?s\.?a\.?\b|^\s*u\.?s\.?\b(?!.*islands)
+Uruguay,TRUE,Uruguay,Uruguay,UY,URY,858,298,Americas,uruguay
+Uzbekistan,TRUE,Uzbekistan,Uzbekistan,UZ,UZB,860,927,Asia,uzbek
+Vanuatu,TRUE,Vanuatu,Vanuatu,VU,VUT,548,846,Oceania,vanuatu|new.?hebrides
+Venezuela,TRUE,"Venezuela, RB",Venezuela,VE,VEN,862,299,Americas,venezuela
+Vietnam,TRUE,Vietnam,Vietnam,VN,VNM,704,582,Asia,^(?!south)(?!republic).*viet.?nam(?!.*south)|socialist.republic.of.viet.?nam|north.viet.?nam|viet.?nam.north
+Republic of Vietnam,FALSE,NA,NA,NA,NA,NA,NA,Asia,(?!social).*republic.of.viet.?nam|south.viet.?nam|viet.?nam.south
+British Virgin Islands,TRUE,British Virgin Islands,British Virgin Islands,VG,VGB,92,NA,Americas,^(?=.*\bu\.?\s?k).*virgin|^(?=.*brit).*virgin|^(?=.*kingdom).*virgin
+U.S. Virgin Islands,TRUE,Virgin Islands (U.S.),U.S. Virgin Islands,VI,VIR,850,NA,Americas,^(?=.*\bu\.?\s?s).*virgin|^(?=.*states).*virgin
+Wallis & Futuna,FALSE,NA,Wallis & Futuna,WF,WLF,876,NA,Oceania,futuna|wallis
+Western Sahara,FALSE,NA,Western Sahara,EH,ESH,732,NA,Africa,western.sahara
+Wuerttemburg,FALSE,NA,NA,NA,NA,NA,NA,NA,w(ue|ü)rttemburg
+Würtemberg,FALSE,NA,NA,NA,NA,NA,NA,NA,w.rtemberg
+Yemen,TRUE,"Yemen, Rep.",Yemen,YE,YEM,887,474,Asia,^(?!.*arab)(?!.*north)(?!.*sana)(?!.*peo)(?!.*dem)(?!.*south)(?!.*aden)(?!.*\bp\.?d\.?r).*yemen
+Yemen Arab Republic,FALSE,NA,NA,NA,NA,NA,NA,NA,^(?=.*arab).*yemen|^(?=.*north).*yemen|^(?=.*sana).*yemen
+Yemen People's Republic,FALSE,NA,NA,NA,NA,NA,NA,NA,^(?=.*peo).*yemen|^(?!.*rep)(?=.*dem).*yemen|^(?=.*south).*yemen|^(?=.*aden).*yemen|^(?=.*\bp\.?d\.?r).*yemen
+Yugoslavia,FALSE,NA,NA,NA,NA,NA,188,NA,yugoslavia
+Zambia,TRUE,Zambia,Zambia,ZM,ZMB,894,754,Africa,zambia|northern.?rhodesia
+Zanzibar,FALSE,NA,NA,NA,NA,NA,NA,NA,zanzibar
+Zimbabwe,TRUE,Zimbabwe,Zimbabwe,ZW,ZWE,716,698,Africa,zimbabwe|^(?!.*northern).*rhodesia
