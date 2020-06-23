@@ -1,5 +1,5 @@
 ---
-title: "wb_colors"
+title: "wb_colors Vignette"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{wb_colors}
